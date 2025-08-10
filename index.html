@@ -52,13 +52,14 @@
         }
     </style>
 </head>
+<body>
 <body class="bg-slate-50">
 
     <div class="flex min-h-screen">
         <!-- Sidebar -->
         <aside class="w-64 bg-white shadow-lg flex-shrink-0 hidden md:flex md:flex-col">
             <div class="p-6 bg-green-800 text-white">
-                <h1 class="text-xl font-bold text-center">OVA: ECUACIONES Y DESIGUALDADES LINEALES</h1>
+                <h1 class="text-xl font-bold text-center">OVA: FUNCIONES MATEMÁTICAS</h1>
             </div>
             <nav class="mt-6 flex-1">
                 <a href="#" class="sidebar-link active flex items-center py-3 px-6 font-medium text-slate-700" data-target="introduccion"><span class="mr-3 text-xl">🚀</span> Introducción</a>
@@ -89,21 +90,21 @@
 
             <!-- Introducción -->
             <div id="introduccion" class="content-pane active">
-                <h2 class="text-2xl sm:text-3xl font-bold text-green-800 mb-4">Bienvenido al recurso educativo digital de ecuaciones y desigualdades lineales</h2>
-                <p class="text-slate-700 leading-relaxed mb-4">
-                    <span class="text-2xl">🤔</span> <strong>¿Sabías que al programar una app como <span class="text-green-700">Rappi</span>, <span class="text-green-700">Netflix</span> o una tienda online estás usando matemáticas sin darte cuenta?</strong>
+                <h2 class="text-2xl sm:text-3xl font-bold text-green-800 mb-4">Bienvenido al recurso educativo digital de funciones matemáticas</h2>
+                <p class="text-lg text-slate-700 leading-relaxed mb-4">
+                    ¿Te has preguntado alguna vez cómo crecen los seguidores de una app, cómo se disparan los datos en segundos o cómo saber si algo está creciendo demasiado rápido? 🚀 ¡Bienvenido al mundo de las <span class="font-bold text-green-700">funciones matemáticas</span>! Son las herramientas secretas para entender y anticipar cambios en la vida real: desde el número de visitas a tu página web favorita hasta el espacio que ocupa una app en tu celular.
                 </p>
-                <p class="text-slate-700 leading-relaxed mb-4">
-                    Cada vez que una app <span class="font-bold text-green-800">calcula el precio total</span> de una compra, 
-                    <span class="font-bold text-green-800">decide si mostrar un contenido según tu edad</span> o 
-                    <span class="font-bold text-green-800">ajusta elementos en pantalla</span>, está usando 
-                    <span class="underline decoration-green-500">ecuaciones y desigualdades lineales</span> <span class="text-xl">📊</span>. En esta guía aprenderás a <span class="font-bold">identificarlas</span>, <span class="font-bold">resolverlas paso a paso</span> y <span class="font-bold">entender cómo se aplican a situaciones reales</span> <span class="text-xl">🚀</span>.
+                <p class="text-lg text-slate-700 leading-relaxed mb-4">
+                    En esta unidad vas a conocer tres tipos de funciones que te abrirán los ojos:
                 </p>
-                <div class="mt-8 p-4 sm:p-6 bg-green-50 border-l-4 border-green-500 rounded-r-lg">
-                    <p class="text-green-800">
-                        Estos conceptos no sólo te ayudarán en la vida cotidiana <span class="text-xl">🛒</span>, sino que son <span class="font-bold">clave en el mundo de la programación</span> <span class="text-xl">💻</span>, donde te permiten <span class="font-bold">tomar decisiones</span>, <span class="font-bold">optimizar recursos</span> y <span class="font-bold">crear código que funciona con lógica y precisión</span> <span class="text-xl">✨</span>.
-                    </p>
-                </div>
+                <ul class="list-disc pl-6 text-slate-700 mb-4">
+                    <li><span class="font-bold text-green-700">Polinómicas</span>: muestran crecimientos regulares, como sumar puntos cada día.</li>
+                    <li><span class="font-bold text-green-700">Exponenciales</span>: reflejan aumentos acelerados, como cuando un video se hace viral.</li>
+                    <li><span class="font-bold text-green-700">Logarítmicas</span>: te ayudan a interpretar procesos inversos, como descifrar contraseñas o analizar escalas de sonido.</li>
+                </ul>
+                <p class="text-lg text-slate-700 leading-relaxed">
+                    ¡Prepárate para descubrir cómo las <span class="font-bold text-green-800">matemáticas</span> se conectan con la <span class="font-bold text-green-800">programación</span> y la <span class="font-bold text-green-800">vida real</span> de una forma divertida y útil! 🤩
+                </p>
             </div>
 
             <!-- Objetivos -->
@@ -111,174 +112,211 @@
                 <h2 class="text-2xl sm:text-3xl font-bold text-green-800 mb-6">Objetivos de Aprendizaje</h2>
                 <ul class="space-y-4">
                     <li class="flex items-start p-4 bg-white rounded-lg shadow-sm">
-                        <span class="text-green-700 mr-3 text-2xl">🧠</span>
-                        <span>Comprender los conceptos fundamentales de ecuaciones y desigualdades lineales, identificando sus características y diferencias principales.</span>
+                        <span class="text-green-700 mr-3 text-2xl">🔎</span>
+                        <span>Comprender qué es una <strong>función matemática</strong> y por qué es fundamental para modelar situaciones en la vida cotidiana y la tecnología.</span>
                     </li>
                     <li class="flex items-start p-4 bg-white rounded-lg shadow-sm">
-                        <span class="text-green-700 mr-3 text-2xl">🔍</span>
-                        <span>Desarrollar la habilidad para identificar ecuaciones y desigualdades lineales en situaciones reales, tanto del entorno cotidiano como tecnológico (por ejemplo, apps, compras en línea, recomendaciones de contenido, etc.).</span>
+                        <span class="text-green-700 mr-3 text-2xl">📈</span>
+                        <span>Explorar y diferenciar los principales tipos de funciones: <strong>polinómicas</strong>, <strong>exponenciales</strong> y <strong>logarítmicas</strong>, identificando sus características clave y ejemplos prácticos.</span>
                     </li>
                     <li class="flex items-start p-4 bg-white rounded-lg shadow-sm">
-                        <span class="text-green-700 mr-3 text-2xl">📝</span>
-                        <span>Resolver ecuaciones y desigualdades lineales paso a paso, empleando estrategias y métodos matemáticos apropiados.</span>
+                        <span class="text-green-700 mr-3 text-2xl">🤖</span>
+                        <span>Reconocer cómo las funciones matemáticas permiten <strong>describir, predecir y optimizar</strong> fenómenos reales y tecnológicos, como el crecimiento de usuarios, el procesamiento de datos o la seguridad digital.</span>
                     </li>
                     <li class="flex items-start p-4 bg-white rounded-lg shadow-sm">
-                        <span class="text-green-700 mr-3 text-2xl">💻</span>
-                        <span>Aplicar los conocimientos adquiridos a la solución de problemas prácticos, optimizando recursos y tomando decisiones lógicas en contextos reales y de programación.</span>
+                        <span class="text-green-700 mr-3 text-2xl">💡</span>
+                        <span>Aplicar el análisis de funciones para resolver <strong>problemas prácticos</strong> y tomar decisiones informadas en contextos de programación, ciencia y vida diaria.</span>
                     </li>
                     <li class="flex items-start p-4 bg-white rounded-lg shadow-sm">
                         <span class="text-green-700 mr-3 text-2xl">🌐✨</span>
-                        <span>Valorar la importancia de las matemáticas en la vida diaria y en el desarrollo de tecnología, reconociendo su impacto en aplicaciones y herramientas digitales que usamos a diario.</span>
+                        <span>Valorar la importancia de las funciones matemáticas como puente entre las <strong>matemáticas, la tecnología y el mundo real</strong>.</span>
                     </li>
                 </ul>
             </div>
 
             <!-- Fundamentos Teóricos -->
             <div id="contenido" class="content-pane">
+                <!-- Funciones -->
+                <section class="mb-8 p-6 bg-white rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold text-green-800 mb-4 flex items-center gap-2">¿Qué es una función? <span>🔄</span></h3>
+                    <p class="text-lg text-slate-700 leading-relaxed mb-4">
+                        Podemos definir una <span class="font-bold text-green-700">función</span> como una regla que relaciona dos cantidades: la primera es la <span class="font-bold">entrada</span> (lo que le das a la función) y la segunda es la <span class="font-bold">salida</span> (lo que obtienes a cambio).
+                        <span class="inline-block bg-green-100 text-green-800 rounded-full px-3 py-1 font-semibold">A cada valor de entrada le corresponde <u>exactamente</u> un valor de salida.</span>
+                    </p>
+                    <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
+                        <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white  rounded flex items-center justify-center overflow-hidden">
+                            <img src="img/funciones_1.webp" alt="Solución gráfica ejemplo" class="max-w-full max-h-full object-contain" style="object-fit:contain;" loading="lazy" />
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <span class="block font-semibold text-green-700 mb-2">Ejemplo sencillo:</span>
+                        <div class="bg-slate-50 border-l-4 border-green-400 p-4 rounded-r-lg mb-2">
+                            <span class="font-mono text-green-800">f(x) = x + 1</span>
+                        </div>
+                        <p class="mb-2 text-slate-700">Aquí, <span class="font-bold">x</span> es el valor que recibe la función y <span class="font-bold">f(x)</span> es el resultado después de aplicar la "regla" (sumar 1).</p>
+                        <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
+                            <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white  rounded flex items-center justify-center overflow-hidden">
+                                <img src="img/funciones_2.webp" alt="Solución gráfica ejemplo" class="max-w-full max-h-full object-contain" style="object-fit:contain;" loading="lazy" />
+                            </div>
+                        </div>                        
+                        <div class="flex items-center gap-4 bg-green-50 p-4 rounded-lg shadow-sm mb-2">
+                            <span class="font-mono text-green-800">Si x = 5:</span>
+                            <span class="font-mono text-green-800 px-3 py-1 rounded">f(5) = 5 + 1 = 6</span>
+                        </div>
+                        <p class="text-slate-700">¡Así de simple! Le das un número a la función, y la función te devuelve otro número siguiendo su regla.</p>
+                    </div>
+                </section>
+
                 <!-- Acordeón de temas -->
                 <div class="w-full max-w-8xl mx-auto">
                     <div class="mb-4">
-                        <button type="button" class="w-full flex justify-between items-center p-4 bg-green-100 border border-green-300 rounded-t-lg focus:outline-none font-bold text-green-800 text-lg accordion-btn mb-2" data-target="#panel-ecuaciones">
-                            Ecuaciones lineales<span class="ml-2">➕</span>
+                        <button type="button" class="w-full flex justify-between items-center p-4 bg-green-100 border border-green-300 rounded-t-lg focus:outline-none font-bold text-green-800 text-lg accordion-btn mb-2" data-target="#panel-funpolinomica">
+                            Funciones polinómicas<span class="ml-2">➕</span>
                         </button>
                     </div>
-                    <div id="panel-ecuaciones" class="accordion-panel hidden bg-white border border-t-0 border-green-300 rounded-b-lg p-4 mb-6">
-                        <!-- CONTENIDO ECUACIONES LINEALES AQUÍ -->
+                    <div id="panel-funpolinomica" class="accordion-panel hidden bg-white border border-t-0 border-green-300 rounded-b-lg p-4 mb-6">
                         <div class="space-y-8 text-slate-700 leading-relaxed">
                             <div>
                                 <p class="mb-4">
-                                    Podemos definir una <strong>ecuación lineal</strong> como una frase matemática que tiene dos lados separados por un signo igual (=) en el medio. Esta frase puede contener una o más letras (<strong>incógnitas</strong>) cuyo valor es desconocido. <br>
-                                    Un ejemplo muy sencillo de una ecuación lineal es: <span class="font-mono bg-green-100 px-2 py-1 rounded">x + 6 = 10</span>, donde <span class="font-bold">x</span> es el valor desconocido o incógnita.
+                                    Podemos definir una <strong>función polinómica</strong> como una fórmula matemática que sirve para relacionar dos cosas que cambian juntas. Por ejemplo:
                                 </p>
+                                <ul class="list-disc pl-6 mb-4">
+                                    <li>Si aumentas los metros sembrados, también aumenta la cosecha.</li>
+                                    <li>Si crías más gallinas, también puedes vender más huevos.</li>
+                                </ul>
+                                <h4 class="font-bold text-green-800 mb-2">Tipos de funciones polinómicas</h4>
+                                <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
+                                    <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white rounded flex items-center justify-center overflow-hidden">
+                                        <img src="img/funciones_p_1.webp" alt="Gráfica función polinómica creciente" class="max-w-full max-h-full object-contain" loading="lazy" />
+                                    </div>
+                                </div>
+                                <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded-r-lg mb-4">
+                                    <strong>Nota:</strong> En este curso solo vamos a abarcar las funciones polinómicas <span class="font-bold text-green-700">lineales o de grado 1</span>.
+                                </div>
+                                <h4 class="font-bold text-green-800 mb-2">Grado 1: Función polinómica lineal</h4>
+                                <p class="mb-4">Una función polinómica lineal es una función que crece o decrece de manera constante.</p>
                             </div>
+                            <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded-r-lg mb-4">
+                                <h4 class="font-bold text-green-800 mb-2">Ejemplo práctico #1</h4>
+                                <p>Imagina que estás vendiendo huevos en la finca de tus padres. Tu papá te dice que cada huevo debes venderlo a 10 pesos. Entonces, si vendes 5 huevos, ¿cuál sería la ganancia?</p>
+                                <p class="mt-2">Definimos la función como <span class="font-mono bg-green-100 px-2 py-1 rounded">ganancia(x) = 10x</span>, donde 10 es el valor de cada huevo y x es la cantidad de huevos que vendiste. Si reemplazamos el valor de x por 5 tenemos que:</p>
+                                <div class="flex flex-col gap-2 my-2">
+                                    <span class="font-mono bg-green-100 px-2 py-1 rounded">ganancia(5) = 10 × 5 = 50</span>
+                                </div>
+                                <p>Entonces obtuviste una ganancia de 50 pesos.</p>
+                                <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
+                                    <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white rounded flex items-center justify-center overflow-hidden">
+                                        <img src="img/funciones_p_2.webp" alt="Gráfica función polinómica ejemplo 1" class="max-w-full max-h-full object-contain" loading="lazy" />
+                                    </div>
+                                </div>
+                                <p>Si analizamos el ejemplo observamos que las ganancias crecen a medida que vendes más cantidad de huevos.</p>
+                            </div>
+                            <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded-r-lg mb-4">
+                                <h4 class="font-bold text-green-800 mb-2">Ejemplo práctico #2</h4>
+                                <p>En este ejemplo continuamos con la misma situación. Imagina que ha pasado al día siguiente y aún tienes los 50 pesos de ganancias contigo y supón que hoy no vendes nada.</p>
+                                <p class="mt-2">Ahora la función se expresaría como <span class="font-mono bg-green-100 px-2 py-1 rounded">ganancia(x) = 10x + 50</span>, donde 50 son las ganancias del día anterior (punto de partida) y x es la cantidad de huevos que has vendido hoy. Si x = 0:</p>
+                                <div class="flex flex-col gap-2 my-2">
+                                    <span class="font-mono bg-green-100 px-2 py-1 rounded">ganancia(0) = 10 × 0 + 50 = 50</span>
+                                </div>
+                                <p>Esto refleja que aunque hoy no vendiste nada, tienes los 50 pesos con los que iniciaste el día.</p>
+                                <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
+                                    <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white rounded flex items-center justify-center overflow-hidden">
+                                        <img src="img/funciones_p_3.webp" alt="Gráfica función polinómica ejemplo 2" class="max-w-full max-h-full object-contain" loading="lazy" />
+                                    </div>
+                                </div>
+                                <p>En este caso, cuando x es cero, se observa que el cruce se hace en (x = 0, y = 50), indicando que ya se cuenta con la ganancia del día anterior.</p>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="mb-4">
+                        <button type="button" class="w-full flex justify-between items-center p-4 bg-green-100 border border-green-300 rounded-t-lg focus:outline-none font-bold text-green-800 text-lg accordion-btn mb-2" data-target="#panel-exponencial">
+                            Funciones exponenciales<span class="ml-2">➕</span>
+                        </button>
+                    </div>
+                    <div id="panel-exponencial" class="accordion-panel hidden bg-white border border-t-0 border-green-300 rounded-b-lg p-4 mb-6">
+                        <div class="space-y-8 text-slate-700 leading-relaxed">
                             <div>
+                                <p class="mb-4">
+                                    Podemos definir una <strong>función exponencial</strong> como una función que intenta demostrar qué tanto crece o decrece una cantidad. Estos crecimientos pueden ser muy rápidos porque la variable independiente está en el exponente, haciendo que el valor constante se duplique (o reduzca) según esa variable.
+                                </p>
                                 <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
-                                    <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white  rounded flex items-center justify-center overflow-hidden">
-                                        <img src="img/ecuaciones_1.webp" alt="Solución gráfica ejemplo" class="max-w-full max-h-full object-contain" style="object-fit:contain;" loading="lazy" />
+                                    <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white rounded flex items-center justify-center overflow-hidden">
+                                        <img src="img/funciones_e_1.webp" alt="Gráfica función exponencial creciente" class="max-w-full max-h-full object-contain" loading="lazy" />
                                     </div>
                                 </div>
-                                <h3 class="text-xl font-bold text-green-700 mb-2">¿Cómo se resuelve una ecuación lineal?</h3>
-                                <p class="mb-4">La idea es poder encontrar el número que falta. Es decir, <span class="font-bold">encontrar el valor de <span class="text-green-800">x</span> para que los dos lados tengan el mismo valor</span>. Podemos imaginar que es como una <span class="font-bold">balanza</span> <span class="text-xl">⚖️</span> donde debemos mantener los dos lados equilibrados para que no se incline para uno u otro lado.</p>
                             </div>
-                            <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded-r-lg">
-                                <h4 class="font-bold text-green-800 mb-2">Ejemplo #1 - Igualdad de lados</h4>
+                            <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded-r-lg mb-4">
+                                <h4 class="font-bold text-green-800 mb-2">Ejemplo práctico #1</h4>
+                                <p>Imagina que tienes una bacteria que se duplica cada hora. Si al inicio tienes 1 bacteria, en una hora tendrás 2, en dos horas 4, en tres horas 8, y así sucesivamente. ¡Cada vez se multiplica por 2!</p>
+                                <p class="mt-2">Esto lo puedes escribir como <span class="font-mono bg-green-100 px-2 py-1 rounded">f(x) = 2ˣ</span>, donde <strong>x</strong> es el número de horas.</p>
+                                <ul class="list-disc pl-6 my-2">
+                                    <li>Después de 0 horas → f(0) = 2⁰ = 1</li>
+                                    <li>Después de 1 hora → f(1) = 2¹ = 2</li>
+                                    <li>Después de 2 horas → f(2) = 2² = 4</li>
+                                    <li>Después de 3 horas → f(3) = 2³ = 8</li>
+                                </ul>
+                                <p>Así crece rápidamente la cantidad de bacterias.</p>
                                 <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
-                                    <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white  rounded flex items-center justify-center overflow-hidden">
-                                        <img src="img/ecuaciones_2.webp" alt="Solución gráfica ejemplo" class="max-w-full max-h-full object-contain" style="object-fit:contain;" loading="lazy" />
+                                    <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white rounded flex items-center justify-center overflow-hidden">
+                                        <img src="img/funciones_e_2.webp" alt="Gráfica función exponencial creciente" class="max-w-full max-h-full object-contain" loading="lazy" />
                                     </div>
                                 </div>
-                                <p class="mb-2">Supongamos que estás en la finca ayudando a contar los sacos de maíz que recogiste con tu familia.<br>
-                                Tu papá te dice:</p>
-                                <blockquote class="italic text-green-700 mb-2">“Entre tú y yo cargamos 10 sacos, pero tú perdiste la cuenta y no te acuerdas cuántos sacos cargaste tú”<br>“Yo cargué 6 sacos, ¿cuántos sacos cargaste tú?”</blockquote>
-                                <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
-                                    <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white  rounded flex items-center justify-center overflow-hidden">
-                                        <img src="img/ecuaciones_3.webp" alt="Solución gráfica ejemplo" class="max-w-full max-h-full object-contain" style="object-fit:contain;" loading="lazy" />
-                                    </div>
-                                </div>
-                                <p>Entonces, es cierto que <span class="font-mono bg-green-100 px-2 py-1 rounded">10 = x + 6</span>. Por lo que podemos decir que <span class="font-bold text-green-800">x = 4</span> para que la ecuación sea verdadera. <span class="font-bold">¡Bingo!</span> <span class="text-xl">🎉</span> Ahora le puedes decir a tu papá que cargaste <span class="font-bold">4 sacos de maíz</span>.</p>
                             </div>
-                            <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded-r-lg">
-                                <h4 class="font-bold text-green-800 mb-2">Ejemplo #2 - Despeje de variables</h4>
+                            <div class="bg-white p-4 rounded-r-lg mb-4">
+                                <h4 class="font-bold text-green-800 mb-2">¿Cómo se gráfica?</h4>
+                                <p>Cuando dibujamos la función en una gráfica, al principio crece lento, pero luego sube muy rápido, como una montaña que se vuelve casi vertical. Nunca baja, siempre sube si a &gt; 1.</p>
                                 <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
-                                    <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white  rounded flex items-center justify-center overflow-hidden">
-                                        <img src="img/ecuaciones_4.webp" alt="Solución gráfica ejemplo" class="max-w-full max-h-full object-contain" style="object-fit:contain;" loading="lazy" />
+                                    <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white rounded flex items-center justify-center overflow-hidden">
+                                        <img src="img/funciones_e_3.webp" alt="Gráfica función exponencial creciente" class="max-w-full max-h-full object-contain" loading="lazy" />
                                     </div>
                                 </div>
-                                <p class="mb-2">Pedro es un agricultor que vive en un municipio de Córdoba y quiere empacar sacos de mango. Cada saco pesa 4 kg, y tiene 20 kg de mango. ¿Cuántos sacos puede llenar si cada uno debe pesar lo mismo?</p>
-                                <p>La ecuación sería: <span class="font-mono bg-green-100 px-2 py-1 rounded">4x = 20</span>.</p>
+                                <p class="mt-2">¡Pero cuidado! También hay escenarios en los que decrece, por ejemplo, cuando una medicina se reduce a la mitad cada hora en tu cuerpo. Esto se puede expresar como <span class="font-mono bg-green-100 px-2 py-1 rounded">f(x) = (1/2)ˣ</span> y su gráfica se ve así:</p>
                                 <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
-                                    <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white  rounded flex items-center justify-center overflow-hidden">
-                                        <img src="img/ecuaciones_5.webp" alt="Solución gráfica ejemplo" class="max-w-full max-h-full object-contain" style="object-fit:contain;" loading="lazy" />
+                                    <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white rounded flex items-center justify-center overflow-hidden">
+                                        <img src="img/funciones_e_4.webp" alt="Gráfica función exponencial decreciente" class="max-w-full max-h-full object-contain" loading="lazy" />
                                     </div>
                                 </div>
-                                <p>Entonces decimos que la ecuación se cumple de ambos lados debido a que son iguales y concluimos que debo llenar <span class="font-bold text-green-800">5 sacos</span> de 4 kilogramos para empacar 20 kilogramos de mango. <span class="text-xl">🥭</span></p>
                             </div>
                         </div>
                     </div>
                     <div class="mb-4">
-                        <button type="button" class="w-full flex justify-between items-center p-4 bg-green-100 border border-green-300 rounded-t-lg focus:outline-none font-bold text-green-800 text-lg accordion-btn mb-2" data-target="#panel-desigualdades">
-                            Desigualdades lineales<span class="ml-2">➕</span>
+                        <button type="button" class="w-full flex justify-between items-center p-4 bg-green-100 border border-green-300 rounded-t-lg focus:outline-none font-bold text-green-800 text-lg accordion-btn mb-2" data-target="#panel-logaritmica">
+                            Funciones logarítmicas<span class="ml-2">➕</span>
                         </button>
                     </div>
-                    <div id="panel-desigualdades" class="accordion-panel hidden bg-white border border-t-0 border-green-300 rounded-b-lg p-4 mb-6">
-                        <div class="text-slate-700 leading-relaxed space-y-6">
+                    <div id="panel-logaritmica" class="accordion-panel hidden bg-white border border-t-0 border-green-300 rounded-b-lg p-4 mb-6">
+                        <div class="space-y-8 text-slate-700 leading-relaxed">
                             <div>
-                                <p class="mb-2">Una <strong>desigualdad lineal</strong> es parecida a una ecuación, pero en este caso los dos lados de la frase no están separados por un signo igual (=) sino por otros símbolos que nos ayudan a determinar si un lado es mayor, menor o igual que el otro.</p>
-                                <p>Por ejemplo: <span class="font-mono bg-green-100 px-2 py-1 rounded">5x &lt; 20</span>, aquí estamos diciendo que 5 veces x es menor que 20.</p>
+                                <p class="mb-4">
+                                    Podemos definir una <strong>función logarítmica</strong> como una función que nos permite calcular cuántos pasos o cuánto tiempo se necesita para alcanzar cierta cantidad. Las funciones logarítmicas se relacionan con las exponenciales: mientras la exponencial muestra cómo crece algo, la logarítmica nos dice cuánto tiempo se necesita para ese crecimiento. Se escribe como <span class="font-mono bg-green-100 px-2 py-1 rounded">f(x) = log<sub>b</sub>(x)</span>.
+                                </p>
                                 <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
-                                    <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white  rounded flex items-center justify-center overflow-hidden">
-                                        <img src="img/desigualdades_1.webp" alt="Solución ejercicio 1" class="max-w-full max-h-full object-contain" loading="lazy">
+                                    <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white rounded flex items-center justify-center overflow-hidden">
+                                        <img src="img/funciones_l_1.webp" alt="Gráfica función logarítmica creciente" class="max-w-full max-h-full object-contain" loading="lazy" />
                                     </div>
                                 </div>
                             </div>
-                            <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded-r-lg">
-                                <p>Las desigualdades nos ayudan cuando no queremos o no podemos tener un resultado exacto, sino que nos interesa saber hasta dónde se puede llegar sin pasarnos de un límite.</p>
-                                <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
-                                    <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white  rounded flex items-center justify-center overflow-hidden">
-                                        <img src="img/desigualdades_2.webp" alt="Solución ejercicio 1" class="max-w-full max-h-full object-contain" loading="lazy">
+                            <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded-r-lg mb-4">
+                                <h4 class="font-bold text-green-800 mb-2">Ejemplo práctico #1</h4>
+                                <p>Supón que tienes una gallina, y cada gallina pone 2 huevos al día. Si guardas un huevo por día para incubarlo y nace una nueva gallina, el número de gallinas irá creciendo. Después de un tiempo tienes 8 gallinas. ¿Cuántos días pasaron para llegar de 1 a 8?</p>
+                                <p class="mt-2">La función es <span class="font-mono bg-green-100 px-2 py-1 rounded">f(x) = log<sub>2</sub>(x)</span>. Si x = 8:</p>
+                                <div class="flex flex-col gap-2 my-2">
+                                    <span class="font-mono bg-green-100 px-2 py-1 rounded">f(8) = log<sub>2</sub>(8) = 3</span>
+                                </div>
+                                <p>Porque 2 × 2 × 2 = 8, es decir, se duplicó 3 veces. ¡Pasaron 3 días para llegar a tener 8 gallinas!</p>
+                                <div class="mt-4 mb-2 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
+                                    <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white rounded flex items-center justify-center overflow-hidden">
+                                        <img src="img/funciones_l_2.webp" alt="Gráfica función logarítmica ejemplo" class="max-w-full max-h-full object-contain" loading="lazy" />
                                     </div>
                                 </div>
+                                <div class="text-sm text-slate-600 italic">Nota: Si la cantidad se triplica o cuadruplica, la base del logaritmo será 3 o 4, respectivamente.</div>
                             </div>
-                            <div>
-                                <h3 class="text-xl font-bold text-green-700 mb-2">¿Cómo se resuelve una desigualdad?</h3>
-                                <p>La desigualdad se resuelve tratando de encontrar qué valores puede tener una letra (como x) para que la frase matemática sea verdadera. Es como resolver una ecuación, pero en lugar de buscar una sola respuesta, vamos a encontrar todas las posibles respuestas que cumplen la condición.</p>
+                            <div class="bg-white p-4 rounded-r-lg mb-4">
+                                <h4 class="font-bold text-green-800 mb-2">¿Cómo se grafica?</h4>
+                                <p>Para graficar la función logarítmica, recuerda que solo funciona para valores positivos de x. Imagina una curva que cruza cerca del punto (1,0) y va aumentando lentamente hacia la derecha a medida que x crece.</p>
                                 <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
-                                    <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white  rounded flex items-center justify-center overflow-hidden">
-                                        <img src="img/desigualdades_3.webp" alt="Solución ejercicio 1" class="max-w-full max-h-full object-contain" loading="lazy">
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-bold text-green-700 mb-2">Símbolos de igualdad o desigualdad</h3>
-                                <div class="overflow-x-auto">
-                                    <table class="min-w-full text-sm text-left border border-green-300 rounded-lg">
-                                        <thead class="bg-green-100">
-                                            <tr>
-                                                <th class="py-2 px-4 border-b border-green-300">Símbolo</th>
-                                                <th class="py-2 px-4 border-b border-green-300">Significado</th>
-                                                <th class="py-2 px-4 border-b border-green-300">Ejemplo</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="py-2 px-4 border-b border-green-100">&lt;</td>
-                                                <td class="py-2 px-4 border-b border-green-100">menor que</td>
-                                                <td class="py-2 px-4 border-b border-green-100">3 &lt; 5</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="py-2 px-4 border-b border-green-100">&gt;</td>
-                                                <td class="py-2 px-4 border-b border-green-100">mayor que</td>
-                                                <td class="py-2 px-4 border-b border-green-100">5 &gt; 3</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="py-2 px-4 border-b border-green-100">&le;</td>
-                                                <td class="py-2 px-4 border-b border-green-100">menor o igual que</td>
-                                                <td class="py-2 px-4 border-b border-green-100">x &le; 10</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="py-2 px-4 border-b border-green-100">&ge;</td>
-                                                <td class="py-2 px-4 border-b border-green-100">mayor o igual que</td>
-                                                <td class="py-2 px-4 border-b border-green-100">y &ge; 10</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                            <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded-r-lg">
-                                <h4 class="font-bold text-green-800 mb-2">Ejemplo #1</h4>
-                                <p>Imagina que estás en el centro y tienes <span class="font-bold">$100 pesos</span>, quieres comprar unas camisetas y al entrar al almacén la vendedora te dice que cada camiseta cuesta <span class="font-bold">$20</span>. ¿Cuántas camisetas puedes comprar sin pasarte del presupuesto?</p>
-                                <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
-                                    <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white  rounded flex items-center justify-center overflow-hidden">
-                                        <img src="img/desigualdades_4.webp" alt="Solución ejercicio 1" class="max-w-full max-h-full object-contain" loading="lazy">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded-r-lg">
-                                <h4 class="font-bold text-green-800 mb-2">Ejemplo #2</h4>
-                                <p>Imagina que tienes una finca con <span class="font-bold">10 cerdos</span>, y cada cerdo necesita al menos <span class="font-bold">3 kilos de alimento</span> al día para estar bien alimentado. Tú eres el encargado de preparar la comida y tienes que asegurarte de que no les falte comida en todo el día.</p>
-                                <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
-                                    <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white  rounded flex items-center justify-center overflow-hidden">
-                                        <img src="img/desigualdades_5.webp" alt="Solución ejercicio 1" class="max-w-full max-h-full object-contain" loading="lazy">
+                                    <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white rounded flex items-center justify-center overflow-hidden">
+                                        <img src="img/funciones_l_2.webp" alt="Gráfica función logarítmica" class="max-w-full max-h-full object-contain" loading="lazy" />
                                     </div>
                                 </div>
                             </div>
@@ -289,41 +327,35 @@
 
             <!-- Actividades Prácticas -->
             <div id="actividades" class="content-pane">
-                <h2 class="text-2xl sm:text-3xl font-bold text-green-800 mb-6">Actividades prácticas</h2>
-                <div class="space-y-8">
-                    <!-- Ejercicio 1 -->
-                    <div class="bg-white border-l-4 border-green-500 rounded-lg shadow-sm p-6">
-                        <h3 class="text-xl font-bold text-green-700 mb-2">Ejercicio 1: presupuesto para herramientas de desarrollo</h3>
-                        <p class="mb-2"><span class="font-semibold">Situación:</span> Estás creando un entorno de trabajo como programador y tienes <span class="font-bold">$50.000</span> disponibles. Cada plugin premium que necesitas cuesta <span class="font-bold">$8.000</span>. ¿Cuántos plugins puedes comprar sin pasarte del presupuesto?</p>
-                        <p class="mb-2"><span class="font-semibold">Desigualdad:</span> <span class="font-mono bg-green-100 px-2 py-1 rounded">8000x ≤ 50000</span></p>
-                        <p class="mb-2"><span class="font-semibold">Interpretación:</span> Calcula cuántos plugins puedes instalar sin exceder el presupuesto.</p>
-                        <div class="mt-2 mb-2 p-3 bg-green-50 border border-green-200 rounded flex items-center">
-                            <input type="text" class="activity-input w-full p-2 border rounded-md bg-white" placeholder="Escribe tu respuesta aquí...">
-                        </div>
-                    </div>
-                    <!-- Ejercicio 2 -->
-                    <div class="bg-white border-l-4 border-green-500 rounded-lg shadow-sm p-6">
-                        <h3 class="text-xl font-bold text-green-700 mb-2">Ejercicio 2: venta de cursos en línea</h3>
-                        <p class="mb-2"><span class="font-semibold">Situación:</span> Diseñaste un curso básico de programación y lo vendes a <span class="font-bold">$6.000</span>. Quieres ganar al menos <span class="font-bold">$72.000</span> este mes. ¿Cuántas copias necesitas vender como mínimo?</p>
-                        <p class="mb-2"><span class="font-semibold">Desigualdad:</span> <span class="font-mono bg-green-100 px-2 py-1 rounded">6000x ≥ 72000</span></p>
-                        <p class="mb-2"><span class="font-semibold">Interpretación:</span> Resuelve para saber el mínimo de estudiantes necesarios para cumplir tu meta.</p>
-                        <div class="mt-2 mb-2 p-3 bg-green-50 border border-green-200 rounded flex items-center">
-                            <input type="text" class="activity-input w-full p-2 border rounded-md bg-white" placeholder="Escribe tu respuesta aquí...">
-                        </div>
-                    </div>
-                    <!-- Ejercicio 3 -->
-                    <div class="bg-white border-l-4 border-green-500 rounded-lg shadow-sm p-6">
-                        <h3 class="text-xl font-bold text-green-700 mb-2">Ejercicio 3: meta diaria de ventas</h3>
-                        <p class="mb-2"><span class="font-semibold">Situación:</span> Tienes una app de comercio local y ayudas a un pescador a vender sus productos. Cada kilo se vende a <span class="font-bold">$6.000</span>. ¿Cuántos kilos debe vender al día para ganar exactamente <span class="font-bold">$60.000</span>?</p>
-                        <p class="mb-2"><span class="font-semibold">Ecuación:</span> <span class="font-mono bg-green-100 px-2 py-1 rounded">6000x = 60000</span></p>
-                        <p class="mb-2"><span class="font-semibold">Interpretación:</span> Resuelve la ecuación y responde la pregunta.</p>
-                        <div class="mt-2 mb-2 p-3 bg-green-50 border border-green-200 rounded flex items-center">
-                            <input type="text" class="activity-input w-full p-2 border rounded-md bg-white" placeholder="Escribe tu respuesta aquí...">
-                        </div>
-                    </div>
-                </div>
-                <button id="check-activity-btn" class="mt-6 bg-green-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-green-700 transition-colors">Verificar Respuestas</button>
-                <div id="activity-result" class="mt-4 font-medium"></div>
+    <h2 class="text-2xl sm:text-3xl font-bold text-green-800 mb-6">Actividades Prácticas</h2>
+    <div class="space-y-8">
+        <!-- Actividad 1: Función polinómica -->
+        <div class="bg-white border-l-4 border-green-500 rounded-lg shadow-sm p-6">
+            <h3 class="text-xl font-bold text-green-700 mb-2">1. Ganancia diaria con huevos</h3>
+            <p class="mb-2">Si cada huevo se vende a $10 y vendiste 7 huevos hoy, ¿cuál es tu ganancia? Escribe solo el número.</p>
+            <div class="mt-2 mb-2 p-3 bg-green-50 border border-green-200 rounded flex items-center">
+                <input type="text" class="activity-input w-full p-2 border rounded-md bg-white" placeholder="Respuesta..." data-answer="70">
+            </div>
+        </div>
+        <!-- Actividad 2: Función exponencial -->
+        <div class="bg-white border-l-4 border-green-500 rounded-lg shadow-sm p-6">
+            <h3 class="text-xl font-bold text-green-700 mb-2">2. Bacterias duplicándose</h3>
+            <p class="mb-2">Si tienes 1 bacteria y cada hora se duplica, ¿cuántas bacterias habrá después de 5 horas?</p>
+            <div class="mt-2 mb-2 p-3 bg-green-50 border border-green-200 rounded flex items-center">
+                <input type="text" class="activity-input w-full p-2 border rounded-md bg-white" placeholder="Respuesta..." data-answer="32">
+            </div>
+        </div>
+        <!-- Actividad 3: Función logarítmica -->
+        <div class="bg-white border-l-4 border-green-500 rounded-lg shadow-sm p-6">
+            <h3 class="text-xl font-bold text-green-700 mb-2">3. ¿Cuántos días para llegar a 16 gallinas?</h3>
+            <p class="mb-2">Si cada gallina pone 2 huevos por día y cada huevo se convierte en una nueva gallina, ¿cuántos días se necesitan para pasar de 1 a 16 gallinas? Escribe solo el número.</p>
+            <div class="mt-2 mb-2 p-3 bg-green-50 border border-green-200 rounded flex items-center">
+                <input type="text" class="activity-input w-full p-2 border rounded-md bg-white" placeholder="Respuesta..." data-answer="4">
+            </div>
+        </div>
+    </div>
+    <button id="check-activity-btn" class="mt-6 bg-green-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-green-700 transition-colors">Verificar Respuestas</button>
+    <div id="activity-result" class="mt-4 font-medium"></div>
             </div>
 
             <!-- Evaluación -->
@@ -345,8 +377,8 @@
                     <!-- Recurso 1 -->
                     <li class="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow flex flex-col sm:flex-row sm:items-center justify-between">
                         <div>
-                            <h3 class="font-bold text-green-700">Test sobre solución de ecuaciones lineales</h3>
-                            <a href="https://wordwall.net/es/resource/2912019/ecuaciones-lineales" target="_blank" class="underline text-slate-700 hover:text-green-700">Ir al recurso</a>
+                            <h3 class="font-bold text-green-700">Recurso interactivo para graficar funciones, muestra todos los componentes de la función.</h3>
+                            <a href="https://www.geogebra.org/m/ybhvuukp#material/hcdwddsz" target="_blank" class="underline text-slate-700 hover:text-green-700">Ir al recurso</a>
                         </div>
                         <div class="mt-4 sm:mt-0 sm:ml-6 flex-shrink-0">
                             <div class="bg-green-50 border border-green-300 rounded flex items-center justify-center" style="width:2cm;height:2cm;">
@@ -357,8 +389,8 @@
                     <!-- Recurso 2 -->
                     <li class="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow flex flex-col sm:flex-row sm:items-center justify-between">
                         <div>
-                            <h3 class="font-bold text-green-700">Prueba sobre solución de ecuaciones lineales</h3>
-                            <a href="https://wordwall.net/es/resource/74055316/matem%C3%A1ticas/ecuaciones" target="_blank" class="underline text-slate-700 hover:text-green-700">Ir al recurso</a>
+                            <h3 class="font-bold text-green-700">Graficador de funciones polinómicas. </h3>
+                            <a href="https://www.geogebra.org/m/S9WUHa8A" target="_blank" class="underline text-slate-700 hover:text-green-700">Ir al recurso</a>
                         </div>
                         <div class="mt-4 sm:mt-0 sm:ml-6 flex-shrink-0">
                             <div class="bg-green-50 border border-green-300 rounded flex items-center justify-center" style="width:2cm;height:2cm;">
@@ -369,8 +401,8 @@
                     <!-- Recurso 3 -->
                     <li class="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow flex flex-col sm:flex-row sm:items-center justify-between">
                         <div>
-                            <h3 class="font-bold text-green-700">Test sobre solución de desigualdades lineales</h3>
-                            <a href="https://wordwall.net/es/resource/88111903/matem%C3%A1ticas/desigualdades" target="_blank" class="underline text-slate-700 hover:text-green-700">Ir al recurso</a>
+                            <h3 class="font-bold text-green-700">Funciones polinómicas básicas</h3>
+                            <a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_polin%C3%B3mica#Funciones_polin%C3%B3micas_b%C3%A1sicas" target="_blank" class="underline text-slate-700 hover:text-green-700">Ir al recurso</a>
                         </div>
                         <div class="mt-4 sm:mt-0 sm:ml-6 flex-shrink-0">
                             <div class="bg-green-50 border border-green-300 rounded flex items-center justify-center" style="width:2cm;height:2cm;">
@@ -429,25 +461,6 @@ document.addEventListener('DOMContentLoaded', () => {
         switchPane(e.target.value);
     });
 
-    // --- Actividad Práctica ---
-    const activityData = [
-        { 
-            question: "Un video tutorial que muestra cómo resolver una ecuación.", 
-            options: ["Interactividad", "Finalidad Educativa", "Reusabilidad"], 
-            answer: "Finalidad Educativa" 
-        },
-        { 
-            question: "Un quiz en línea que da retroalimentación inmediata.", 
-            options: ["Interactividad", "Adaptabilidad", "Formato Digital"], 
-            answer: "Interactividad" 
-        },
-        { 
-            question: "Una simulación de un laboratorio de química que se puede usar en bachillerato y universidad.", 
-            options: ["Reusabilidad", "Accesibilidad", "Intencionalidad Educativa"], 
-            answer: "Reusabilidad" 
-        }
-    ];
-
     const activityContainer = document.getElementById('activity-container');
     if (activityContainer) {
         activityData.forEach((item, index) => {
@@ -491,29 +504,29 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Evaluación Quiz ---
     const quizData = [
         {
-            question: "¿Cuál de las siguientes opciones representa una ecuación lineal?",
-            options: ["5x < 20", "6000x = 60000", "x ≥ 10", "y > 3"],
-            answer: "6000x = 60000"
+            question: "¿Cuál es el resultado de la función polinómica ganancia(x) = 8x si vendes 6 huevos?",
+            options: ["14", "48", "42", "36"],
+            answer: "48"
         },
         {
-            question: "¿Qué símbolo se usa para indicar 'mayor o igual que'?",
-            options: ["<", ">", "≤", "≥"],
-            answer: "≥"
+            question: "¿Cuál de las siguientes funciones representa un crecimiento exponencial?",
+            options: ["f(x) = 2x + 1", "f(x) = 2^x", "f(x) = x^2", "f(x) = log(x)"],
+            answer: "f(x) = 2^x"
         },
         {
-            question: "Si tienes $100 y cada camiseta cuesta $20, ¿cuál es la desigualdad que representa cuántas camisetas puedes comprar sin pasarte del presupuesto?",
-            options: ["20x ≥ 100", "20x ≤ 100", "x + 20 = 100", "100x ≥ 20"],
-            answer: "20x ≤ 100"
+            question: "Si tienes una función logarítmica f(x) = log2(x), ¿cuál es el valor de f(16)?",
+            options: ["4", "8", "2", "16"],
+            answer: "4"
         },
         {
-            question: "¿Qué interpretación es correcta sobre la solución de una desigualdad lineal?",
-            options: ["Solo existe una respuesta posible", "No tiene solución", "Puede tener muchas respuestas que cumplen la condición", "Siempre es igual a una ecuación"],
-            answer: "Puede tener muchas respuestas que cumplen la condición"
+            question: "¿Qué representa la gráfica de una función logarítmica?",
+            options: ["Un crecimiento muy rápido al principio y luego lento", "Una línea recta", "Un crecimiento lento que se acelera mucho", "Una curva que nunca baja"],
+            answer: "Un crecimiento muy rápido al principio y luego lento"
         },
         {
-            question: "Para ganar exactamente $60.000 vendiendo kilos de pescado a $6.000 cada uno, ¿cuántos kilos debes vender?",
-            options: ["5", "10", "12", "20"],
-            answer: "10"
+            question: "¿Cuál es la principal diferencia entre una función exponencial y una logarítmica?",
+            options: ["La exponencial muestra el tiempo necesario para alcanzar una cantidad y la logarítmica el crecimiento", "La logarítmica muestra el tiempo necesario para alcanzar una cantidad y la exponencial el crecimiento", "Ambas muestran lo mismo", "Ninguna de las anteriores"],
+            answer: "La logarítmica muestra el tiempo necesario para alcanzar una cantidad y la exponencial el crecimiento"
         }
     ];
 
@@ -549,18 +562,18 @@ document.addEventListener('DOMContentLoaded', () => {
             let score = 0;
             const questions = quizContainer.querySelectorAll('.mb-6');
             const feedbacks = [
-                'Correcto: 6000x = 60000 es una ecuación lineal porque tiene el signo igual (=).',
-                'Correcto: El símbolo ≥ significa "mayor o igual que".',
-                'Correcto: 20x ≤ 100 representa que el gasto total no debe exceder el presupuesto.',
-                'Correcto: Una desigualdad puede tener muchas soluciones que cumplen la condición.',
-                'Correcto: 60000 / 6000 = 10, así que debes vender 10 kilos.'
+                '¡Correcto! 8 x 6 = 48, así calculas la ganancia polinómica.',
+                '¡Bien! f(x) = 2^x es una función exponencial porque la variable está en el exponente.',
+                '¡Exacto! log2(16) = 4 porque 2 x 2 x 2 x 2 = 16.',
+                '¡Muy bien! La gráfica logarítmica crece rápido al principio y luego más lento.',
+                '¡Perfecto! La función logarítmica responde “cuánto tiempo”, la exponencial “cuánto crece”.'
             ];
             const wrongFeedbacks = [
-                'Incorrecto. Recuerda que una ecuación lineal tiene el signo igual (=).',
-                'Incorrecto. El símbolo ≥ es el que indica "mayor o igual que".',
-                'Incorrecto. La desigualdad correcta es 20x ≤ 100.',
-                'Incorrecto. Una desigualdad puede tener muchas soluciones.',
-                'Incorrecto. Debes vender exactamente 10 kilos para ganar $60.000.'
+                'Incorrecto. Recuerda que la ganancia es 8 x 6 = 48.',
+                'Incorrecto. Solo f(x) = 2^x es una función exponencial.',
+                'Incorrecto. log2(16) = 4, porque 2 elevado a 4 es 16.',
+                'No es correcto. La gráfica logarítmica crece rápido y luego se aplana.',
+                'Vuelve a intentarlo: la logarítmica indica “cuánto tiempo”, la exponencial “cuánto crece”.'
             ];
             questions.forEach((q, index) => {
                 const selectedOption = q.querySelector('.quiz-option.selected');
@@ -597,9 +610,9 @@ document.addEventListener('DOMContentLoaded', () => {
             checkBtn.addEventListener('click', function() {
                 const inputs = document.querySelectorAll('.activity-input');
                 const respuestas = [
-                    ['6', '6.25', '6,25', '6 plugins'], // Ejercicio 1: máximo 6 plugins (estrictamente ≤ 50000/8000)
-                    ['12'], // Ejercicio 2: mínimo 12 estudiantes (72000/6000)
-                    ['10'], // Ejercicio 3: exactamente 10 kilos (60000/6000)
+                    ['70'], // Actividad 1: 10 x 7 = 70
+                    ['32'], // Actividad 2: 2^5 = 32 bacterias
+                    ['4']   // Actividad 3: log2(16) = 4 días
                 ];
                 let correctas = 0;
                 let feedback = [];
