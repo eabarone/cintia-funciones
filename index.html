@@ -58,10 +58,12 @@
     <div class="flex min-h-screen">
         <!-- Sidebar -->
         <aside class="w-64 bg-white shadow-lg flex-shrink-0 hidden md:flex md:flex-col">
-            <div class="p-6 bg-green-800 text-white">
-                <h1 class="text-xl font-bold text-center">OVA: FUNCIONES MATEMÁTICAS</h1>
+            <div class="p-4">
+                <div style="width: 150px; height: 150px;" class="p-2 mx-auto flex items-center justify-center bg-white rounded-full shadow-lg border-2 border-green-500 transition-shadow duration-300 hover:shadow-green-400">
+                    <img src="img/logo.webp" alt="Logo OVA" class="w-5/6 h-5/6 object-contain" loading="lazy">
+                </div>
             </div>
-            <nav class="mt-6 flex-1">
+            <nav class="flex-1">
                 <a href="#" class="sidebar-link active flex items-center py-3 px-6 font-medium text-slate-700" data-target="introduccion"><span class="mr-3 text-xl">🚀</span> Introducción</a>
                 <a href="#" class="sidebar-link flex items-center py-3 px-6 font-medium text-slate-700" data-target="objetivos"><span class="mr-3 text-xl">🎯</span> Objetivos</a>
                 <a href="#" class="sidebar-link flex items-center py-3 px-6 font-medium text-slate-700" data-target="contenido"><span class="mr-3 text-xl">📚</span> Contenido</a>
@@ -74,11 +76,11 @@
         <!-- Main Content -->
         <main class="flex-1 p-4 sm:p-6 md:p-10 bg-gray-50">
             <!-- Mobile Header -->
-            <div class="md:hidden mb-6">
-                 <div class="flex justify-between items-center">
-                    <h1 class="text-xl font-bold text-green-800">OVA: ECUACIONES Y DESIGUALDADES LINEALES</h1>
-                 </div>
-                 <select id="mobile-nav" class="w-full mt-2 p-2 border rounded-md bg-white shadow-sm">
+            <div class="md:hidden mb-6 flex flex-col items-center">
+                <div style="width: 100px; height: 100px;" class="p-2 flex items-center justify-center bg-white rounded-full shadow-lg transition-shadow duration-300 hover:shadow-green-400 mb-2">
+                    <img src="img/logo.webp" alt="Logo OVA" class="w-5/6 h-5/6 object-contain" loading="lazy">
+                </div>
+                <select id="mobile-nav" class="w-full mt-2 p-2 border rounded-md bg-white shadow-sm">
                     <option value="introduccion">🚀 Introducción</option>
                     <option value="objetivos">🎯 Objetivos</option>
                     <option value="contenido">📚 Contenido</option>
@@ -90,7 +92,7 @@
 
             <!-- Introducción -->
             <div id="introduccion" class="content-pane active">
-                <h2 class="text-2xl sm:text-3xl font-bold text-green-800 mb-4">Bienvenido al recurso educativo digital de funciones matemáticas</h2>
+                <h2 class="text-2xl sm:text-3xl font-bold text-green-800 mb-4">Funciones Matemáticas</h2>
                 <p class="text-lg text-slate-700 leading-relaxed mb-4">
                     ¿Te has preguntado alguna vez cómo crecen los seguidores de una app, cómo se disparan los datos en segundos o cómo saber si algo está creciendo demasiado rápido? 🚀 ¡Bienvenido al mundo de las <span class="font-bold text-green-700">funciones matemáticas</span>! Son las herramientas secretas para entender y anticipar cambios en la vida real: desde el número de visitas a tu página web favorita hasta el espacio que ocupa una app en tu celular.
                 </p>
@@ -109,7 +111,7 @@
 
             <!-- Objetivos -->
             <div id="objetivos" class="content-pane">
-                <h2 class="text-2xl sm:text-3xl font-bold text-green-800 mb-6">Objetivos de Aprendizaje</h2>
+                <h2 class="text-2xl sm:text-3xl font-bold text-green-800 mb-6">Objetivos de aprendizaje</h2>
                 <ul class="space-y-4">
                     <li class="flex items-start p-4 bg-white rounded-lg shadow-sm">
                         <span class="text-green-700 mr-3 text-2xl">🔎</span>
@@ -140,7 +142,7 @@
                 <section class="mb-8 p-6 bg-white rounded-lg shadow-md">
                     <h3 class="text-2xl font-bold text-green-800 mb-4 flex items-center gap-2">¿Qué es una función? <span>🔄</span></h3>
                     <p class="text-lg text-slate-700 leading-relaxed mb-4">
-                        Podemos definir una <span class="font-bold text-green-700">función</span> como una regla que relaciona dos cantidades: la primera es la <span class="font-bold">entrada</span> (lo que le das a la función) y la segunda es la <span class="font-bold">salida</span> (lo que obtienes a cambio).
+                        Podemos definir una <span class="font-bold text-green-700">Función</span> como una regla que relaciona dos cantidades: la primera es la <span class="font-bold">entrada</span> (lo que le das a la función) y la segunda es la <span class="font-bold">salida</span> (lo que obtienes a cambio).
                         <span class="inline-block bg-green-100 text-green-800 rounded-full px-3 py-1 font-semibold">A cada valor de entrada le corresponde <u>exactamente</u> un valor de salida.</span>
                     </p>
                     <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
@@ -171,14 +173,14 @@
                 <div class="w-full max-w-8xl mx-auto">
                     <div class="mb-4">
                         <button type="button" class="w-full flex justify-between items-center p-4 bg-green-100 border border-green-300 rounded-t-lg focus:outline-none font-bold text-green-800 text-lg accordion-btn mb-2" data-target="#panel-funpolinomica">
-                            Funciones polinómicas<span class="ml-2">➕</span>
+                            Funciones Polinómicas<span class="ml-2">➕</span>
                         </button>
                     </div>
                     <div id="panel-funpolinomica" class="accordion-panel hidden bg-white border border-t-0 border-green-300 rounded-b-lg p-4 mb-6">
                         <div class="space-y-8 text-slate-700 leading-relaxed">
                             <div>
                                 <p class="mb-4">
-                                    Podemos definir una <strong>función polinómica</strong> como una fórmula matemática que sirve para relacionar dos cosas que cambian juntas. Por ejemplo:
+                                    Podemos definir una <strong>Función Polinómica</strong> como una fórmula matemática que sirve para relacionar dos cosas que cambian juntas. Por ejemplo:
                                 </p>
                                 <ul class="list-disc pl-6 mb-4">
                                     <li>Si aumentas los metros sembrados, también aumenta la cosecha.</li>
@@ -193,7 +195,7 @@
                                 <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded-r-lg mb-4">
                                     <strong>Nota:</strong> En este curso solo vamos a abarcar las funciones polinómicas <span class="font-bold text-green-700">lineales o de grado 1</span>.
                                 </div>
-                                <h4 class="font-bold text-green-800 mb-2">Grado 1: Función polinómica lineal</h4>
+                                <h4 class="font-bold text-green-800 mb-2">Grado 1: función polinómica lineal</h4>
                                 <p class="mb-4">Una función polinómica lineal es una función que crece o decrece de manera constante.</p>
                             </div>
                             <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded-r-lg mb-4">
@@ -230,14 +232,14 @@
                     </div>                    
                     <div class="mb-4">
                         <button type="button" class="w-full flex justify-between items-center p-4 bg-green-100 border border-green-300 rounded-t-lg focus:outline-none font-bold text-green-800 text-lg accordion-btn mb-2" data-target="#panel-exponencial">
-                            Funciones exponenciales<span class="ml-2">➕</span>
+                            Funciones Exponenciales<span class="ml-2">➕</span>
                         </button>
                     </div>
                     <div id="panel-exponencial" class="accordion-panel hidden bg-white border border-t-0 border-green-300 rounded-b-lg p-4 mb-6">
                         <div class="space-y-8 text-slate-700 leading-relaxed">
                             <div>
                                 <p class="mb-4">
-                                    Podemos definir una <strong>función exponencial</strong> como una función que intenta demostrar qué tanto crece o decrece una cantidad. Estos crecimientos pueden ser muy rápidos porque la variable independiente está en el exponente, haciendo que el valor constante se duplique (o reduzca) según esa variable.
+                                    Podemos definir una <strong>Función Exponencial</strong> como una función que intenta demostrar qué tanto crece o decrece una cantidad. Estos crecimientos pueden ser muy rápidos porque la variable independiente está en el exponente, haciendo que el valor constante se duplique (o reduzca) según esa variable.
                                 </p>
                                 <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
                                     <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white rounded flex items-center justify-center overflow-hidden">
@@ -263,7 +265,7 @@
                                 </div>
                             </div>
                             <div class="bg-white p-4 rounded-r-lg mb-4">
-                                <h4 class="font-bold text-green-800 mb-2">¿Cómo se gráfica?</h4>
+                                <h4 class="font-bold text-green-800 mb-2">¿Cómo se Grafica?</h4>
                                 <p>Cuando dibujamos la función en una gráfica, al principio crece lento, pero luego sube muy rápido, como una montaña que se vuelve casi vertical. Nunca baja, siempre sube si a &gt; 1.</p>
                                 <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
                                     <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white rounded flex items-center justify-center overflow-hidden">
@@ -281,14 +283,14 @@
                     </div>
                     <div class="mb-4">
                         <button type="button" class="w-full flex justify-between items-center p-4 bg-green-100 border border-green-300 rounded-t-lg focus:outline-none font-bold text-green-800 text-lg accordion-btn mb-2" data-target="#panel-logaritmica">
-                            Funciones logarítmicas<span class="ml-2">➕</span>
+                            Funciones Logarítmicas<span class="ml-2">➕</span>
                         </button>
                     </div>
                     <div id="panel-logaritmica" class="accordion-panel hidden bg-white border border-t-0 border-green-300 rounded-b-lg p-4 mb-6">
                         <div class="space-y-8 text-slate-700 leading-relaxed">
                             <div>
                                 <p class="mb-4">
-                                    Podemos definir una <strong>función logarítmica</strong> como una función que nos permite calcular cuántos pasos o cuánto tiempo se necesita para alcanzar cierta cantidad. Las funciones logarítmicas se relacionan con las exponenciales: mientras la exponencial muestra cómo crece algo, la logarítmica nos dice cuánto tiempo se necesita para ese crecimiento. Se escribe como <span class="font-mono bg-green-100 px-2 py-1 rounded">f(x) = log<sub>b</sub>(x)</span>.
+                                    Podemos definir una <strong>Función Logarítmica</strong> como una función que nos permite calcular cuántos pasos o cuánto tiempo se necesita para alcanzar cierta cantidad. Las funciones logarítmicas se relacionan con las exponenciales: mientras la exponencial muestra cómo crece algo, la logarítmica nos dice cuánto tiempo se necesita para ese crecimiento. Se escribe como <span class="font-mono bg-green-100 px-2 py-1 rounded">f(x) = log<sub>b</sub>(x)</span>.
                                 </p>
                                 <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
                                     <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white rounded flex items-center justify-center overflow-hidden">
@@ -312,7 +314,7 @@
                                 <div class="text-sm text-slate-600 italic">Nota: Si la cantidad se triplica o cuadruplica, la base del logaritmo será 3 o 4, respectivamente.</div>
                             </div>
                             <div class="bg-white p-4 rounded-r-lg mb-4">
-                                <h4 class="font-bold text-green-800 mb-2">¿Cómo se grafica?</h4>
+                                <h4 class="font-bold text-green-800 mb-2">¿Cómo se Grafica?</h4>
                                 <p>Para graficar la función logarítmica, recuerda que solo funciona para valores positivos de x. Imagina una curva que cruza cerca del punto (1,0) y va aumentando lentamente hacia la derecha a medida que x crece.</p>
                                 <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
                                     <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white rounded flex items-center justify-center overflow-hidden">
@@ -327,35 +329,35 @@
 
             <!-- Actividades Prácticas -->
             <div id="actividades" class="content-pane">
-    <h2 class="text-2xl sm:text-3xl font-bold text-green-800 mb-6">Actividades Prácticas</h2>
-    <div class="space-y-8">
-        <!-- Actividad 1: Función polinómica -->
-        <div class="bg-white border-l-4 border-green-500 rounded-lg shadow-sm p-6">
-            <h3 class="text-xl font-bold text-green-700 mb-2">1. Ganancia diaria con huevos</h3>
-            <p class="mb-2">Si cada huevo se vende a $10 y vendiste 7 huevos hoy, ¿cuál es tu ganancia? Escribe solo el número.</p>
-            <div class="mt-2 mb-2 p-3 bg-green-50 border border-green-200 rounded flex items-center">
-                <input type="text" class="activity-input w-full p-2 border rounded-md bg-white" placeholder="Respuesta..." data-answer="70">
-            </div>
-        </div>
-        <!-- Actividad 2: Función exponencial -->
-        <div class="bg-white border-l-4 border-green-500 rounded-lg shadow-sm p-6">
-            <h3 class="text-xl font-bold text-green-700 mb-2">2. Bacterias duplicándose</h3>
-            <p class="mb-2">Si tienes 1 bacteria y cada hora se duplica, ¿cuántas bacterias habrá después de 5 horas?</p>
-            <div class="mt-2 mb-2 p-3 bg-green-50 border border-green-200 rounded flex items-center">
-                <input type="text" class="activity-input w-full p-2 border rounded-md bg-white" placeholder="Respuesta..." data-answer="32">
-            </div>
-        </div>
-        <!-- Actividad 3: Función logarítmica -->
-        <div class="bg-white border-l-4 border-green-500 rounded-lg shadow-sm p-6">
-            <h3 class="text-xl font-bold text-green-700 mb-2">3. ¿Cuántos días para llegar a 16 gallinas?</h3>
-            <p class="mb-2">Si cada gallina pone 2 huevos por día y cada huevo se convierte en una nueva gallina, ¿cuántos días se necesitan para pasar de 1 a 16 gallinas? Escribe solo el número.</p>
-            <div class="mt-2 mb-2 p-3 bg-green-50 border border-green-200 rounded flex items-center">
-                <input type="text" class="activity-input w-full p-2 border rounded-md bg-white" placeholder="Respuesta..." data-answer="4">
-            </div>
-        </div>
-    </div>
-    <button id="check-activity-btn" class="mt-6 bg-green-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-green-700 transition-colors">Verificar Respuestas</button>
-    <div id="activity-result" class="mt-4 font-medium"></div>
+                <h2 class="text-2xl sm:text-3xl font-bold text-green-800 mb-6">Actividades prácticas</h2>
+                <div class="space-y-8">
+                    <!-- Actividad 1: Función polinómica -->
+                    <div class="bg-white border-l-4 border-green-500 rounded-lg shadow-sm p-6">
+                        <h3 class="text-xl font-bold text-green-700 mb-2">1. Ganancia diaria con huevos</h3>
+                        <p class="mb-2">Si cada huevo se vende a $10 y vendiste 7 huevos hoy, ¿cuál es tu ganancia? Escribe solo el número.</p>
+                        <div class="mt-2 mb-2 p-3 bg-green-50 border border-green-200 rounded flex items-center">
+                            <input type="text" class="activity-input w-full p-2 border rounded-md bg-white" placeholder="Respuesta..." data-answer="70">
+                        </div>
+                    </div>
+                    <!-- Actividad 2: Función exponencial -->
+                    <div class="bg-white border-l-4 border-green-500 rounded-lg shadow-sm p-6">
+                        <h3 class="text-xl font-bold text-green-700 mb-2">2. Bacterias duplicándose</h3>
+                        <p class="mb-2">Si tienes 1 bacteria y cada hora se duplica, ¿cuántas bacterias habrá después de 5 horas?</p>
+                        <div class="mt-2 mb-2 p-3 bg-green-50 border border-green-200 rounded flex items-center">
+                            <input type="text" class="activity-input w-full p-2 border rounded-md bg-white" placeholder="Respuesta..." data-answer="32">
+                        </div>
+                    </div>
+                    <!-- Actividad 3: Función logarítmica -->
+                    <div class="bg-white border-l-4 border-green-500 rounded-lg shadow-sm p-6">
+                        <h3 class="text-xl font-bold text-green-700 mb-2">3. ¿Cuántos días para llegar a 16 gallinas?</h3>
+                        <p class="mb-2">Si cada gallina pone 2 huevos por día y cada huevo se convierte en una nueva gallina, ¿cuántos días se necesitan para pasar de 1 a 16 gallinas? Escribe solo el número.</p>
+                        <div class="mt-2 mb-2 p-3 bg-green-50 border border-green-200 rounded flex items-center">
+                            <input type="text" class="activity-input w-full p-2 border rounded-md bg-white" placeholder="Respuesta..." data-answer="4">
+                        </div>
+                    </div>
+                </div>
+                <button id="check-activity-btn" class="mt-6 bg-green-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-green-700 transition-colors">Verificar Respuestas</button>
+                <div id="activity-result" class="mt-4 font-medium"></div>
             </div>
 
             <!-- Evaluación -->
@@ -371,13 +373,13 @@
 
             <!-- Recursos -->
             <div id="recursos" class="content-pane">
-                <h2 class="text-2xl sm:text-3xl font-bold text-green-800 mb-6">Recursos para Profundizar</h2>
-                <p class="text-slate-700 leading-relaxed mb-6">Para ampliar tu conocimiento sobre las funciones matemáticas, te recomendamos explorar los siguientes enlaces y documentos:</p>
+                <h2 class="text-2xl sm:text-3xl font-bold text-green-800 mb-6">Recursos para profundizar</h2>
+                <p class="text-slate-700 leading-relaxed mb-6">Para ampliar tu conocimiento sobre los Recursos Educativos Digitales, te recomendamos explorar los siguientes enlaces y documentos:</p>
                 <ul class="space-y-4">
                     <!-- Recurso 1 -->
                     <li class="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow flex flex-col sm:flex-row sm:items-center justify-between">
                         <div>
-                            <h3 class="font-bold text-green-700">Recurso interactivo para graficar funciones, muestra todos los componentes de la función.</h3>
+                            <h3 class="font-bold text-green-700">Recurso Interactivo para Graficar Funciones, Muestra Todos los Componentes de la Función</h3>
                             <a href="https://www.geogebra.org/m/ybhvuukp#material/hcdwddsz" target="_blank" class="underline text-slate-700 hover:text-green-700">Ir al recurso</a>
                         </div>
                         <div class="mt-4 sm:mt-0 sm:ml-6 flex-shrink-0">
@@ -389,7 +391,7 @@
                     <!-- Recurso 2 -->
                     <li class="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow flex flex-col sm:flex-row sm:items-center justify-between">
                         <div>
-                            <h3 class="font-bold text-green-700">Graficador de funciones polinómicas. </h3>
+                            <h3 class="font-bold text-green-700">Graficador de Funciones Polinómicas</h3>
                             <a href="https://www.geogebra.org/m/S9WUHa8A" target="_blank" class="underline text-slate-700 hover:text-green-700">Ir al recurso</a>
                         </div>
                         <div class="mt-4 sm:mt-0 sm:ml-6 flex-shrink-0">
@@ -401,7 +403,7 @@
                     <!-- Recurso 3 -->
                     <li class="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow flex flex-col sm:flex-row sm:items-center justify-between">
                         <div>
-                            <h3 class="font-bold text-green-700">Funciones polinómicas básicas</h3>
+                            <h3 class="font-bold text-green-700">Funciones Polinómicas Básicas</h3>
                             <a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_polin%C3%B3mica#Funciones_polin%C3%B3micas_b%C3%A1sicas" target="_blank" class="underline text-slate-700 hover:text-green-700">Ir al recurso</a>
                         </div>
                         <div class="mt-4 sm:mt-0 sm:ml-6 flex-shrink-0">
