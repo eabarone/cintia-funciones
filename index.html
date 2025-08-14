@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OVA: Funciones matemáticas</title>
+    <title>OVA: Recurso Educativo Digital (RED)</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -70,6 +70,7 @@
                 <a href="#" class="sidebar-link flex items-center py-3 px-6 font-medium text-slate-700" data-target="actividades"><span class="mr-3 text-xl">✍️</span> Actividades</a>
                 <a href="#" class="sidebar-link flex items-center py-3 px-6 font-medium text-slate-700" data-target="evaluacion"><span class="mr-3 text-xl">✔️</span> Evaluación</a>
                 <a href="#" class="sidebar-link flex items-center py-3 px-6 font-medium text-slate-700" data-target="recursos"><span class="mr-3 text-xl">📖</span> Recursos</a>
+                <a href="#" class="sidebar-link flex items-center py-3 px-6 font-medium text-slate-700" data-target="bibliografia"><span class="mr-3 text-xl">📚</span> Bibliografía</a>
             </nav>
         </aside>
 
@@ -87,6 +88,7 @@
                     <option value="actividades">✍️ Actividades Prácticas</option>
                     <option value="evaluacion">✔️ Evaluación</option>
                     <option value="recursos">📖 Recursos</option>
+                    <option value="bibliografia">📚 Bibliografía</option>
                 </select>
             </div>
 
@@ -142,7 +144,7 @@
                 <section class="mb-8 p-6 bg-white rounded-lg shadow-md">
                     <h3 class="text-2xl font-bold text-green-800 mb-4 flex items-center gap-2">¿Qué es una función? <span>🔄</span></h3>
                     <p class="text-lg text-slate-700 leading-relaxed mb-4">
-                        Podemos definir una <span class="font-bold text-green-700">Función</span> como una regla que relaciona dos cantidades: la primera es la <span class="font-bold">entrada</span> (lo que le das a la función) y la segunda es la <span class="font-bold">salida</span> (lo que obtienes a cambio).
+                        Podemos definir una <span class="font-bold text-green-700">función</span> como una regla que relaciona dos cantidades: la primera es la <span class="font-bold">entrada</span> (lo que le das a la función) y la segunda es la <span class="font-bold">salida</span> (lo que obtienes a cambio).
                         <span class="inline-block bg-green-100 text-green-800 rounded-full px-3 py-1 font-semibold">A cada valor de entrada le corresponde <u>exactamente</u> un valor de salida.</span>
                     </p>
                     <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
@@ -172,15 +174,15 @@
                 <!-- Acordeón de temas -->
                 <div class="w-full max-w-8xl mx-auto">
                     <div class="mb-4">
-                        <button type="button" class="w-full flex justify-between items-center p-4 bg-green-100 border border-green-300 rounded-t-lg focus:outline-none font-bold text-green-800 text-lg accordion-btn mb-2" data-target="#panel-funpolinomica">
-                            Funciones Polinómicas<span class="ml-2">➕</span>
+                        <button type="button" class="w-full flex justify-between items-start p-4 bg-green-100 border border-green-300 rounded-t-lg focus:outline-none font-bold text-green-800 text-lg accordion-btn mb-2 text-left" data-target="#panel-funpolinomica">
+                            Funciones polinómicas<span class="ml-2">➕</span>
                         </button>
                     </div>
                     <div id="panel-funpolinomica" class="accordion-panel hidden bg-white border border-t-0 border-green-300 rounded-b-lg p-4 mb-6">
                         <div class="space-y-8 text-slate-700 leading-relaxed">
                             <div>
                                 <p class="mb-4">
-                                    Podemos definir una <strong>Función Polinómica</strong> como una fórmula matemática que sirve para relacionar dos cosas que cambian juntas. Por ejemplo:
+                                    Podemos definir una <strong>función polinómica</strong> como una fórmula matemática que sirve para relacionar dos cosas que cambian juntas. Por ejemplo:
                                 </p>
                                 <ul class="list-disc pl-6 mb-4">
                                     <li>Si aumentas los metros sembrados, también aumenta la cosecha.</li>
@@ -231,15 +233,15 @@
                         </div>
                     </div>                    
                     <div class="mb-4">
-                        <button type="button" class="w-full flex justify-between items-center p-4 bg-green-100 border border-green-300 rounded-t-lg focus:outline-none font-bold text-green-800 text-lg accordion-btn mb-2" data-target="#panel-exponencial">
-                            Funciones Exponenciales<span class="ml-2">➕</span>
+                        <button type="button" class="w-full flex justify-between items-start p-4 bg-green-100 border border-green-300 rounded-t-lg focus:outline-none font-bold text-green-800 text-lg accordion-btn mb-2 text-left" data-target="#panel-exponencial">
+                            Funciones exponenciales<span class="ml-2">➕</span>
                         </button>
                     </div>
                     <div id="panel-exponencial" class="accordion-panel hidden bg-white border border-t-0 border-green-300 rounded-b-lg p-4 mb-6">
                         <div class="space-y-8 text-slate-700 leading-relaxed">
                             <div>
                                 <p class="mb-4">
-                                    Podemos definir una <strong>Función Exponencial</strong> como una función que intenta demostrar qué tanto crece o decrece una cantidad. Estos crecimientos pueden ser muy rápidos porque la variable independiente está en el exponente, haciendo que el valor constante se duplique (o reduzca) según esa variable.
+                                    Podemos definir una <strong>función exponencial</strong> como una función que intenta demostrar qué tanto crece o decrece una cantidad. Estos crecimientos pueden ser muy rápidos porque la variable independiente está en el exponente, haciendo que el valor constante se duplique (o reduzca) según esa variable.
                                 </p>
                                 <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
                                     <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white rounded flex items-center justify-center overflow-hidden">
@@ -265,7 +267,7 @@
                                 </div>
                             </div>
                             <div class="bg-white p-4 rounded-r-lg mb-4">
-                                <h4 class="font-bold text-green-800 mb-2">¿Cómo se Grafica?</h4>
+                                <h4 class="font-bold text-green-800 mb-2">¿Cómo se grafica?</h4>
                                 <p>Cuando dibujamos la función en una gráfica, al principio crece lento, pero luego sube muy rápido, como una montaña que se vuelve casi vertical. Nunca baja, siempre sube si a &gt; 1.</p>
                                 <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
                                     <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white rounded flex items-center justify-center overflow-hidden">
@@ -282,15 +284,15 @@
                         </div>
                     </div>
                     <div class="mb-4">
-                        <button type="button" class="w-full flex justify-between items-center p-4 bg-green-100 border border-green-300 rounded-t-lg focus:outline-none font-bold text-green-800 text-lg accordion-btn mb-2" data-target="#panel-logaritmica">
-                            Funciones Logarítmicas<span class="ml-2">➕</span>
+                        <button type="button" class="w-full flex justify-between items-start p-4 bg-green-100 border border-green-300 rounded-t-lg focus:outline-none font-bold text-green-800 text-lg accordion-btn mb-2 text-left" data-target="#panel-logaritmica">
+                            Funciones logarítmicas<span class="ml-2">➕</span>
                         </button>
                     </div>
                     <div id="panel-logaritmica" class="accordion-panel hidden bg-white border border-t-0 border-green-300 rounded-b-lg p-4 mb-6">
                         <div class="space-y-8 text-slate-700 leading-relaxed">
                             <div>
                                 <p class="mb-4">
-                                    Podemos definir una <strong>Función Logarítmica</strong> como una función que nos permite calcular cuántos pasos o cuánto tiempo se necesita para alcanzar cierta cantidad. Las funciones logarítmicas se relacionan con las exponenciales: mientras la exponencial muestra cómo crece algo, la logarítmica nos dice cuánto tiempo se necesita para ese crecimiento. Se escribe como <span class="font-mono bg-green-100 px-2 py-1 rounded">f(x) = log<sub>b</sub>(x)</span>.
+                                    Podemos definir una <strong>función logarítmica</strong> como una función que nos permite calcular cuántos pasos o cuánto tiempo se necesita para alcanzar cierta cantidad. Las funciones logarítmicas se relacionan con las exponenciales: mientras la exponencial muestra cómo crece algo, la logarítmica nos dice cuánto tiempo se necesita para ese crecimiento. Se escribe como <span class="font-mono bg-green-100 px-2 py-1 rounded">f(x) = log<sub>b</sub>(x)</span>.
                                 </p>
                                 <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
                                     <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white rounded flex items-center justify-center overflow-hidden">
@@ -314,7 +316,7 @@
                                 <div class="text-sm text-slate-600 italic">Nota: Si la cantidad se triplica o cuadruplica, la base del logaritmo será 3 o 4, respectivamente.</div>
                             </div>
                             <div class="bg-white p-4 rounded-r-lg mb-4">
-                                <h4 class="font-bold text-green-800 mb-2">¿Cómo se Grafica?</h4>
+                                <h4 class="font-bold text-green-800 mb-2">¿Cómo se grafica?</h4>
                                 <p>Para graficar la función logarítmica, recuerda que solo funciona para valores positivos de x. Imagina una curva que cruza cerca del punto (1,0) y va aumentando lentamente hacia la derecha a medida que x crece.</p>
                                 <div class="mt-4 mb-6 p-4 bg-white border border-green-300 rounded-lg shadow-sm flex flex-col items-center">
                                     <div class="w-full h-32 sm:h-48 md:h-64 xl:h-80 bg-white rounded flex items-center justify-center overflow-hidden">
@@ -356,7 +358,7 @@
                         </div>
                     </div>
                 </div>
-                <button id="check-activity-btn" class="mt-6 bg-green-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-green-700 transition-colors">Verificar Respuestas</button>
+                <button id="check-activity-btn" class="mt-6 bg-green-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-green-700 transition-colors">Verificar respuestas</button>
                 <div id="activity-result" class="mt-4 font-medium"></div>
             </div>
 
@@ -366,7 +368,7 @@
                 <div class="bg-white p-6 rounded-lg shadow-md">
                     <p class="text-slate-600 mb-6">Comprueba lo que has aprendido. Selecciona la respuesta correcta para cada pregunta.</p>
                     <div id="quiz-container"></div>
-                    <button id="submit-quiz-btn" class="mt-6 bg-green-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-green-700 transition-colors">Finalizar Evaluación</button>
+                    <button id="submit-quiz-btn" class="mt-6 bg-green-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-green-700 transition-colors">Finalizar evaluación</button>
                     <div id="quiz-result" class="mt-4 text-lg font-bold"></div>
                 </div>
             </div>
@@ -374,12 +376,12 @@
             <!-- Recursos -->
             <div id="recursos" class="content-pane">
                 <h2 class="text-2xl sm:text-3xl font-bold text-green-800 mb-6">Recursos para profundizar</h2>
-                <p class="text-slate-700 leading-relaxed mb-6">Para ampliar tu conocimiento sobre los Recursos Educativos Digitales, te recomendamos explorar los siguientes enlaces y documentos:</p>
+                <p class="text-slate-700 leading-relaxed mb-6">Para ampliar tu conocimiento sobre las funciones polinómicas, exponenciales y logarítmicas, te recomendamos explorar los siguientes enlaces y documentos:</p>
                 <ul class="space-y-4">
                     <!-- Recurso 1 -->
-                    <li class="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow flex flex-col sm:flex-row sm:items-center justify-between">
+                    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-green-500 flex flex-col sm:flex-row sm:items-center justify-between">
                         <div>
-                            <h3 class="font-bold text-green-700">Recurso Interactivo para Graficar Funciones, Muestra Todos los Componentes de la Función</h3>
+                            <h3 class="font-bold text-green-700">Recurso interactivo para graficar funciones, muestra todos los componentes de la función</h3>
                             <a href="https://www.geogebra.org/m/ybhvuukp#material/hcdwddsz" target="_blank" class="underline text-slate-700 hover:text-green-700">Ir al recurso</a>
                         </div>
                         <div class="mt-4 sm:mt-0 sm:ml-6 flex-shrink-0">
@@ -389,9 +391,9 @@
                         </div>
                     </li>
                     <!-- Recurso 2 -->
-                    <li class="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow flex flex-col sm:flex-row sm:items-center justify-between">
+                    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-green-500 flex flex-col sm:flex-row sm:items-center justify-between">
                         <div>
-                            <h3 class="font-bold text-green-700">Graficador de Funciones Polinómicas</h3>
+                            <h3 class="font-bold text-green-700">Graficador de funciones polinómicas</h3>
                             <a href="https://www.geogebra.org/m/S9WUHa8A" target="_blank" class="underline text-slate-700 hover:text-green-700">Ir al recurso</a>
                         </div>
                         <div class="mt-4 sm:mt-0 sm:ml-6 flex-shrink-0">
@@ -401,9 +403,9 @@
                         </div>
                     </li>
                     <!-- Recurso 3 -->
-                    <li class="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow flex flex-col sm:flex-row sm:items-center justify-between">
+                    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-green-500 flex flex-col sm:flex-row sm:items-center justify-between">
                         <div>
-                            <h3 class="font-bold text-green-700">Funciones Polinómicas Básicas</h3>
+                            <h3 class="font-bold text-green-700">Funciones polinómicas básicas</h3>
                             <a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_polin%C3%B3mica#Funciones_polin%C3%B3micas_b%C3%A1sicas" target="_blank" class="underline text-slate-700 hover:text-green-700">Ir al recurso</a>
                         </div>
                         <div class="mt-4 sm:mt-0 sm:ml-6 flex-shrink-0">
@@ -414,11 +416,36 @@
                     </li>
                 </ul>
             </div>
+
+            <!-- Bibliografía -->
+            <div id="bibliografia" class="content-pane">
+                <h2 class="text-2xl sm:text-3xl font-bold text-green-800 mb-6">Bibliografía</h2>
+                <div class="space-y-6">
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-green-500">
+                        <span class="block text-slate-700">
+                            Wikipedia. (s.f.). Función polinómica. En Wikipedia, la enciclopedia libre. Recuperado el 7 de agosto de 2025, de<br>
+                            <a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_polin%C3%B3mica" class="text-green-700 underline break-all" target="_blank">https://es.wikipedia.org/wiki/Funci%C3%B3n_polin%C3%B3mica</a>
+                        </span>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-green-500">
+                        <span class="block text-slate-700">
+                            Wikipedia. (s.f.). Función exponencial. En Wikipedia, la enciclopedia libre. Recuperado el 7 de agosto de 2025, de<br>
+                            <a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_exponencial" class="text-green-700 underline break-all" target="_blank">https://es.wikipedia.org/wiki/Funci%C3%B3n_exponencial</a>
+                        </span>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-green-500">
+                        <span class="block text-slate-700">
+                            Khan Academy. (s.f.). Exponentes y logaritmos. En Khan Academy en español. Recuperado el 7 de agosto de 2025, de<br>
+                            <a href="https://es.khanacademy.org" class="text-green-700 underline break-all" target="_blank">https://es.khanacademy.org</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
             
             <!-- Footer/Credits -->
             <footer class="mt-12 pt-6 border-t-2 border-slate-200 text-center">
                 <p class="text-slate-600 font-medium">Creado por:</p>
-                <p class="text-green-800 font-bold text-lg">Centro de Innovación en TIC para el apoyo de la Docencia CINTIA</p>
+                <p class="text-green-800 font-bold text-lg">Centro de innovación en TIC para el apoyo de la docencia CINTIA</p>
                 <p class="text-slate-500 text-sm">Universidad de Córdoba</p>
             </footer>
         </main>
